@@ -8,7 +8,7 @@ public class FattorialeNumero {
         int numero = scan.nextInt();
 
         for (int i = numero; i > 0; i--) {
-            int fattoriale = i * i--;
+            int fattoriale = i;
                 
             System.out.println(fattoriale);
         }
